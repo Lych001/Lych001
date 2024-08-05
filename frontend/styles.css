@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4b9;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: monospace;
+    font-weight: 900;
+    text-shadow: #99df18b9;
+    color: darkgreen;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#encrypted-password {
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    color: darkgreen;
+}
+
+#hashed-password {
+    margin-top: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: monospace;
+    color: darkgreen;
+    font-size: 24px;
+    overflow-wrap: break-word;
+    word-break: break-all; 
+    white-space: pre-wrap; 
+}
